@@ -5,9 +5,6 @@ import sendMail from "../../utilities/sendEmail.js";
 import "dotenv/config";
 import verificationMail from "../../verifyMailTemp.js";
 
-//#######################################
-//##### mtnsa4 t8yr el errors
-//#######################################
 // SignUp Manager or New User
 const signUp = async (req, res, next) => {
   try {
